@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <title>Twosomeplace</title>
+</head>
+<body id="no_scroll">
+  <div id="topBtn">
+    <a href="#"></a>
+    <span>TOP</span>
+    <a href="#none"></a>
+    <span>단체 구매</span>
+    <a href="#none"></a>
+    <span>제보하기</span>
+  </div>
+
+  <header id="header">
+    <div class="inner clear">
+      <a href="index.html" class="logo"><h1><img src="./images/logo_black.svg" alt=""></h1></a>
+      <nav id="sub">
+        <ul class="gnb clear">
+          <li>
+            <a href="#none">투썸플레이스 소개</a>
+            <ul class="sub_menu">
+              <li>
+                <a href="#none">투썸플레이스</a>
+                <ul class="sub_menu2">
+                  <li><a href="#none">비전체계</a></li>
+                  <li><a href="#none">연혁</a></li>
+                  <li><a href="#none">BI</a></li>
+                  <li><a href="#none">20주년 이야기</a></li>
+                  <li><a href="#none">Recruit</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">매장</a>
+                <ul class="sub_menu2">
+                  <li><a href="#none">DT/DI</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">브랜드 브로슈어</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="coffee.html">메뉴이야기</a>
+            <ul class="sub_menu">
+              <li><a href="coffee.html">커피이야기</a></li>
+              <li><a href="dessert.html">디저트이야기</a></li>
+              <li><a href="deli.html">델리이야기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#none">브랜드지원</a>
+            <ul class="sub_menu">
+              <li><a href="#none">어썸 페어링 플랜트</a></li>
+              <li><a href="#none">어썸 디저트 플랜트</a></li>
+              <li><a href="#none">C&amp;D 센터</a></li>
+              <li><a href="#none">SEP 센터</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#none">투썸플레이스 맵&amp;멤버십</a>
+            <ul class="sub_menu">
+              <li><a href="#none">투썸플레이스 앱 소개</a></li>
+              <li>
+                <a href="#none">투썸플레이스 멤버십</a>
+                <ul class="sub_menu2">
+                  <li><a href="#none">멤버십 소개</a></li>
+                  <li><a href="#none">등급 및 혜택</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#none">가맹점 창업 안내</a>
+            <ul class="sub_menu">
+              <li><a href="#none">가맹점 개설 안내</a></li>
+              <li><a href="#none">창업설명회</a></li>
+              <li><a href="#none">온라인 창엄 상담 신청</a></li>
+              <li><a href="#none">FAQ</a></li>
+              <li><a href="#none">가맹점 전용 금융상품</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#none">새소식&amp;공지</a>
+            <ul class="sub_menu">
+              <li><a href="#none">공지사항</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="bg"></div>
+      </nav>
+      <div class="menuBtn_wrap">
+        <div class="menuBtn" id="show"></div>
+      </div>      
+    </div>    
+  </header>
+  <div class="bg"></div>
+  <!-- 메뉴창 -->
+  <aside>
+    <div class="modal_wrap" id="hide">
+      <div class="modal_hd">
+        <a href="index.html"><img src="./images/logo_white.svg" alt=""></a>
+        <div id="closeBtn">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      
+      <!-- 메뉴창 메뉴 -->
+      <ul class="modal_list" id="modal">
+        <li>
+          <a href="#none">투썸플레이스 소개</a>
+          <ul class="modal sub_menu">
+            <li>
+              <a href="#none">투썸플레이스</a>
+              <ul class="sub_menu2">
+                <li><a href="#none">비전체계</a></li>
+                <li><a href="#none">연혁</a></li>
+                <li><a href="#none">BI</a></li>
+                <li><a href="#none">20주년 이야기</a></li>
+                <li><a href="#none">Recruit</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none">매장</a>
+              <ul class="sub_menu2">
+                <li><a href="#none">DT/DI</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none">브랜드 브로슈어</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="coffee.html">메뉴이야기</a>
+          <ul class="modal sub_menu">
+            <li><a href="coffee.html">커피이야기</a></li>
+            <li><a href="dessert.html">디저트이야기</a></li>
+            <li><a href="deli.html">델리이야기</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#none">브랜드지원</a>
+          <ul class="modal sub_menu">
+            <li><a href="#none">어썸 페어링 플랜트</a></li>
+            <li><a href="#none">어썸 디저트 플랜트</a></li>
+            <li><a href="#none">C&amp;D 센터</a></li>
+            <li><a href="#none">SEP 센터</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#none">투썸플레이스 맵&amp;멤버십</a>
+          <ul class="modal sub_menu">
+            <li><a href="#none">투썸플레이스 앱 소개</a></li>
+            <li>
+              <a href="#none">투썸플레이스 멤버십</a>
+              <ul class="sub_menu2">
+                <li><a href="#none">멤버십 소개</a></li>
+                <li><a href="#none">등급 및 혜택</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#none">가맹점 창업 안내</a>
+          <ul class="modal sub_menu">
+            <li><a href="#none">가맹점 개설 안내</a></li>
+            <li><a href="#none">창업설명회</a></li>
+            <li><a href="#none">온라인 창엄 상담 신청</a></li>
+            <li><a href="#none">FAQ</a></li>
+            <li><a href="#none">가맹점 전용 금융상품</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#none">새소식&amp;공지</a>
+          <ul class="modal sub_menu">
+            <li><a href="#none">공지사항</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    <div class="main_visual on"></div>
+    <div class="main_visual"></div>
+    <div class="main_visual"></div>
+    <div class="main_visual"></div>
+    <div class="mouse">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="leftBtn">
+      <span class="material-symbols-outlined">navigate_before</span>
+    </div>
+    <div class="rightBtn">
+      <span class="material-symbols-outlined">navigate_next</span>
+    </div>
+    <ul class="pagenation">
+      <li class="on"></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </main>
+
+  <section>
+    <div id="menustory">
+      <div class="inner">
+        <h2 class="con_title">menu <br> story</h2>
+        <div class="menu_item_wrap">
+          <div class="menu_item">
+            <p>다양한 프리미엄 케이크&amp;디저트</p>
+            <div class="box">
+              <img src="./images/menustory2.jpg" alt="">
+              <div class="bottom_box">
+                <p>dessert</p>
+                <a href="dessert.html">
+                  Learn more
+                  <span class="material-symbols-outlined">arrow_right</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="menu_item">
+            <p>전문가의 섬세함으로 완성한 커피</p>
+            <div class="box">
+              <img src="./images/menustory1.jpg" alt="">
+              <div class="bottom_box">
+                <p>coffee</p>
+                <a href="coffee.html">Learn more <span class="material-symbols-outlined">
+                  arrow_right
+                  </span></a>
+              </div>
+            </div>
+          </div>
+          <div class="menu_item">
+            <p>가볍게 즐기는 맛있는 식사</p>
+            <div class="box">
+              <img src="./images/menustory3.jpg" alt="">
+              <div class="bottom_box">
+                <p>sandwich</p>
+                <a href="deli.html">Learn more <span class="material-symbols-outlined">
+                  arrow_right
+                  </span></a>
+              </div>
+            </div>
+          </div>
+        </div >
+      </div>
+    </div>
+
+    <div id="brandsuport">
+      <div class="inner">
+        <h2 class="con_title">brand<br>surport</h2>
+      </div>
+      <div class="swiper_wrap">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper_img"></div>
+              <a href="#none" class="swiper_tit">로스팅 플랜트</a>
+              <p>원두 로스팅부터 고객의 손에 들리는 한 잔의 커피까지, <br> 최고의 커피 품질을 만듭니다.</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper_img"></div>
+              <a href="#none" class="swiper_tit">디저트 플랜트</a>
+              <p>최고의 맛과 품질을 자랑하는 <br> 투썸플레이스의 디저트를 만듭니다.</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper_img"></div>
+              <a href="#none" class="swiper_tit">C&amp;D 센터</a>
+              <p>최고의 상품을 구현해 새로운 가치를 창조하는 <br> 투썸플레이스의 상품연구개발센터입니다.</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper_img"></div>
+              <a href="#none" class="swiper_tit">SEP 센터</a>
+              <p>투썸플레이스 SEP센터는 <br> 브랜드 가치를 만들어내는 전문가 육성 센터입니다.</p>
+            </div>            
+          </div>  
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>  
+        </div>
+      </div>
+    </div>
+
+    <div id="franchise">
+      <div class="inner">
+        <h2 class="con_title">franchise</h2>
+        <h3>당신의 창업 성공 스토리,<br>투썸플레이스가 함께합니다.</h3>
+        <h4>
+          향기로운 커피와 달콤한 디저트가 함께하는 프리미엄 디저트 카페 투썸플레이스. <br>
+          투썸플레이스의 축적된 경험과 노하우를 바탕으로 여러분의 성공 창업을 약속드립니다.
+          <span><a href="#none">창업안내 바로가기</a></span>
+        </h4>
+        <div class="gallery">
+          <div class="big_img_wrap">
+            <ul class="big_img">
+              <li>
+                <p>
+                  춘천구봉산점
+                  <span>강원 춘천시 동면 순환대로 1154-105</span>
+                </p>
+                <img src="./images/gallery7.png" alt="">
+              </li>
+              <li class="on">
+                <p class="on">
+                  기장일광해변점
+                  <span>부산광역시 기장군 일광면 삼성리 134-2</span>
+                </p>
+                <img src="./images/gallery1.png" alt="">
+              </li>
+              <li>
+                <p>
+                  제주애월한담점 
+                  <span>제주시 애월읍 애월로1길 19</span>
+                </p>
+                <img src="./images/gallery2.png" alt="">
+              </li>
+              <li>
+                <p>
+                  왕산해수욕장점 
+                  <span>인천광역시 중구 을왕동 808-25</span>
+                </p>
+                <img src="./images/gallery3.png" alt="">
+              </li>
+              <li>
+                <p>
+                  마산저도점
+                  <span>경남 창원시 마산합포구 구산면 큰개길 13</span>
+                </p>
+                <img src="./images/gallery4.png" alt="">
+              </li>
+              <li>
+                <p>
+                  경주보문호수점
+                  <span>경북 경주시 천군1길 8-16 1층</span>
+                </p>
+                <img src="./images/gallery8.png" alt="">
+              </li>
+              <li>
+                <p>
+                  팔당점
+                  <span>경기 남양주시 와부읍 경강로 768 투썸플레이스</span>
+                </p>
+                <img src="./images/gallery6.png" alt="">
+              </li>
+            </ul>
+          </div>
+          <div class="thumbs_wrap">
+            <ul class="thumbs">
+              <li><img src="./images/gallery7.png" alt=""></li>
+              <li class="on"><img src="./images/gallery1.png" alt=""></li>
+              <li><img src="./images/gallery2.png" alt=""></li>
+              <li><img src="./images/gallery3.png" alt=""></li>
+              <li><img src="./images/gallery4.png" alt=""></li>
+              <li><img src="./images/gallery8.png" alt=""></li>
+              <li><img src="./images/gallery6.png" alt=""></li>
+            </ul>
+          </div>
+          <div class="preBtn">
+            <span class="material-symbols-outlined">navigate_before</span>
+          </div>
+          <div class="nextBtn">
+            <span class="material-symbols-outlined">navigate_next</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="inner">
+      <div class="address">
+        <h6 class="ft_tit">address</h6>
+        <p class="ft_txt">서울특별시 중구 을지로 170, 8층(을지로4가, 을지트윈타워) 투썸플레이스(주)</p>
+      </div>
+      <div class="customer">
+        <h6 class="ft_tit">customer center</h6>
+        <p class="ft_txt">고객센터:1577-4410 <span></span> 팩스:02-2058-6777</p>
+      </div>
+      <div class="policy">
+        <ul>
+          <li><a href="#none">이용약관</a></li>
+          <li><a href="#none" class="color">개인정보처리방침</a></li>
+          <li><a href="#none">위치기반서비스 이용약관</a></li>
+          <li><a href="#none">이메일 무단수집거부</a></li>
+          <li><a href="#none">법적고지</a></li>
+          <li><a href="#none">사업자정보확인</a></li>
+        </ul>
+      </div>
+      <div class="company_info">
+        <p>
+          대표이사:이영상 <span></span> 개인정보보호책임자:장재호 <span></span> 사업자등록번호:404-86-01054 <br>
+          통신판매업종신고층:제2018-서울중구-0353호 <span></span> 대표이메일:helpmaster@twosome.co.kr
+        </p>
+        <p class="copy">Copyright&copy;2021 A TWOSOMEPLACE Co.LTD.ALL Rights Reserved.</p>
+      </div>
+      <div class="sns">
+        <a href="#none"><i class="fa fa-facebook-square fa-3x"></i></a>
+        <a href="#none"><i class="fa fa-youtube-square fa-3x"></i></a>
+        <a href="#none"><i class="fa fa-instagram fa-3x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Swiper JS -->
+  <script src="./js/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="./js/style.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: false,
+      centeredSlides: true,
+      slidesPerView: "2",
+      spaceBetween: 20,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      coverflowEffect: {
+        rotate: 100,
+        stretch: 00,
+        depth: 100,
+        modifier: .7,
+        slideShadows: true,
+      },
+    });
+  </script>
+
+</body>
+</html>
